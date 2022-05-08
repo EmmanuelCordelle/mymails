@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F6FA;
+
+}
+
+h6{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    background-color: #FFFFFF;
+
+    border: 1px solid #DADADA
+   
+}
+
+p{
+    font-family:'normal';
+
+    font-size: 14px;
+}
+
+.img-trash{
+    width: 15px;
+    height: 15px;
+    margin: 10px 10px;
+}
+
+.img-avatar{
+    margin-right: 10px;
+    margin-left: 10px;
+
+    width: 60px;
+    height: 60px;
+
+    border-radius:60px;
+
+}
+
+form{
+    width: 100%;
+    margin: 10px;
+    display: inline-block;
+    /* align-items: center;
+    justify-content: center; */
+
+}
+
+.saisie{
+    width: 80%;
+    margin-left: 10px;
+
+}
+
+.boutton {
+    height: 100%;
+
+    background-color: white;
+    color: rgb(35, 220, 245);
+    border-color: rgb(35, 220, 245);
+    border-radius: 5px;
+   
+}
+
+.hide {
+    display: none;
+}
+
+
+
+
+
